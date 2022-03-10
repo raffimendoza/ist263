@@ -1,5 +1,17 @@
-.myclass {color: blue;}
+body {background-color: #A8B7A4;}
 
-.link {color: green}
+p {color: #000;}
 
-h1 {color: red;}
+a {color: #DAD2CF;}
+a:hover {color: #11c226;}
+a:visited {color: #c21146;}
+
+h1 {color: #de5021;}
+
+h2 {color: #ed6d42;}
+
+nav {background-color: #c0d1c5;
+    padding: 10px;
+    margin-bottom: 30px;}
+nav a{color: #ed6d42;}
+nav a:hover{color:#11c226;}
