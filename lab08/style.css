@@ -1,0 +1,52 @@
+body {background-color: #A8B7A4;}
+
+p {color: #000;}
+
+a {color: #DAD2CF;}
+a:hover {color: #11c226;}
+a:visited {color: #c21146;}
+
+h1 {color: #de5021;}
+
+h2 {color: #ed6d42;}
+
+nav {background-color: #c0d1c5;
+    padding: 10px;
+    margin-bottom: 30px;}
+nav a{color: #ed6d42;}
+nav a:hover{color:#11c226;}
+
+.moveright {float: right;}
+
+.clear {clear: both;}
+
+
+.address {float: left;
+        margin-right: 10px;}
+
+.info .links {margin: 10px}
+.info {flex: 2; order:1;}
+.links {flex: 1; order:2;} 
+
+.part1 {float:left; border: 1px solid #ffa500;
+    padding: 20px;
+    border-radius: 25px;
+    background-color: #4dd5f0;
+    margin: 10px;}
+
+.part2 {display: flex;}
+.part2 {float:left; border: 1px solid #ffa500;
+    padding: 20px;
+    border-radius: 25px;
+    background-color: #4dd5f0;}
+
+.part2 {padding: 10px;}
+.part1 div {
+    flex: 1;
+}
+.part2 div {
+     flex: 1;
+}
+.map .form {margin: 5px}
+.form {flex: 1; order:1;}
+.map {flex: 1; order:2;} 
