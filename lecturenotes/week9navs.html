@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Week 9 - Navs </title>
+    <style>
+        .row1 {
+            background-color: black;
+            color: white;
+            display: flex; /* Side by side */
+            justify-content: flex-end; /* Always call on the same container as flex ^ */
+        }
+
+        .row2 {
+            background-color: black;
+            color: white;
+            display: flex; /* Side by side */
+            justify-content: space-around; /* Always call on the same container as flex ^ */ /* Use space-around for project */     
+            margin-top: 10px; 
+        }
+
+        .row1 div, .row2 div, .row3 div{ /* Decsendant selectors */
+            margin: 10px; /* Space between columns */
+        }
+
+        .row3 {
+            display: flex;
+            background-color: black;
+            color:  white;
+            justify-content: space-between; /* Always call on the same container as flex ^ */
+            margin-top: 10px;
+        }
+
+        .firstinnerflex, .secondinnerflex {
+            display: flex;
+        }
+    </style>
+</head>
+<body>
+    <div class="row1">
+        <div>Home</div>
+        <div>About Us</div>
+        <div>Products</div>
+        <div>Contacts</div>
+    </div>
+
+    <div class="row2">
+        <div>Home</div>
+        <div>About Us</div>
+        <div>Products</div>
+        <div>Contacts</div>
+    </div>
+
+    <div class="row3">
+        <div class="firstinnerflex">
+            <div>Home</div>
+            <div>About Us</div>
+            <div>Products</div>
+            <div>Contacts</div>
+        </div>
+        <div class="secondinnerflex">
+            <div>Facebook</div>
+            <div>Twitter</div>
+        </div>
+    </div>
+</body>
+</html>
