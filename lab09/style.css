@@ -58,7 +58,7 @@ nav a:hover{color:#11c226;}
             margin: 10px;}
 
 .row1 div {padding: 50px;}
-.row2 {width: 60%;}
+.row2 {width: 60%; margin-right: 10px;}
 p {margin: auto; width: auto;}
 
 aside {background-color: blanchedalmond;
