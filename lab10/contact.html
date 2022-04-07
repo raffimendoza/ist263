@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+      <nav>
+        <a href="index.html">Home</a> <span>|</span>
+        <a href="skills.html">Skills</a> <span>|</span>
+        <a href="contact.html">Contact</a>
+    </nav>
+        <h1>Contact</h1>
+
+        <div class="part1">
+          <div class="info"> 
+            <header class="address">
+            <p><strong>Address</strong></p>
+            Raffi Mendoza<br>
+            900 South Crouse Ave Syracuse, NY 13244</header>
+            <div class="clear"></div>
+          </div>
+          <div class="links">
+          <img src="../images/logo-sized.png" alt="linkedin page">
+          <a href="https://www.linkedin.com/in/jose-raphael-m/"> My LinkedIn Profile </a>
+          <a href="mailto:jrmendoz@syr.edu">Raffi Mendoza's Email</a>
+          </div>
+        </div>
+        <br>
+        <div class="part2">
+          <div class="form">
+            <form action="https://formspree.io/f/xwkyobgb" method="POST">
+              <label for="fullname">Enter Name:</label>
+              <input type="text" name="fullname" id="fullname" placeholder="John Smith">
+              <br>
+              <label>
+                Your email:
+                <input type="email" name="email">
+              </label>
+              <p>Urgency?</p>
+              <label for="business">business</label>
+              <input type="radio" id="business" name="urgency"> 
+              <label for="personal">personal</label>
+              <input type="radio" id="personal" name="urgency"> <br>
+              <!-- your other form fields go here -->
+              <label>
+                  Your message:
+                  <textarea name="message"></textarea>
+                </label>
+              <button type="submit">Send</button>
+            </form>
+          </div>
+          <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d46663.67706715202!2d-76.1589943234365!3d43.03133511162429!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f3682f81fc95%3A0xdde8fcc1640a4876!2sSyracuse%2C%20NY%2013210!5e0!3m2!1sen!2sus!4v1644509340392!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+        </div>
+    </body>
+</html>
