@@ -1,0 +1,97 @@
+body {background-color: #A8B7A4;}
+
+p {color: #000;}
+
+a {color: #DAD2CF;}
+a:hover {color: #11c226;}
+a:visited {color: #c21146;}
+
+h1 {text-align: center;
+    color: #de5021;}
+
+h2 {color: #ed6d42;}
+
+nav {background-color: #c0d1c5;
+    padding: 10px;
+    margin-bottom: 30px;}
+nav a{color: #ed6d42;}
+nav a:hover{color:#11c226;}
+
+.moveright {float: right;}
+
+.clear {clear: both;}
+
+
+.address {float: left;
+        margin-right: 10px;}
+
+.info .links {margin: 10px}
+.info {flex: 2; order:1;}
+.links {flex: 1; order:2;} 
+
+.part1 {float:left; border: 1px solid #ffa500;
+    padding: 20px;
+    border-radius: 25px;
+    background-color: #4dd5f0;
+    margin: 10px;}
+
+.part2 {display: flex;}
+.part2 {float:left; border: 1px solid #ffa500;
+    padding: 20px;
+    border-radius: 25px;
+    background-color: #4dd5f0;}
+
+.part2 {padding: 10px;}
+.part1 div {
+    flex: 1;
+}
+.part2 div {
+     flex: 1;
+}
+.map .form {margin: 5px}
+.form {flex: 1; order:1;}
+.map {flex: 1; order:2;} 
+
+.maincontainer{display: flex;}
+.maincontainer {justify-content: space-between;}
+.row1, .row2 {display: flex;
+            margin: 10px;}
+
+.row1 div {padding: 50px;}
+.row2 {width: 60%; margin-left: 100px;}
+p {margin: auto; width: auto;}
+
+aside {background-color: blanchedalmond;
+    border: 1px solid blanchedalmond;
+    border-radius: 25px;
+    padding: 50px;}
+
+.topflex {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 2em;
+  }
+
+.introcontainer p {flex: 1;
+            padding: 60px;}
+.row1 div {flex: 1;}
+
+.cover {
+    max-width: 100%;
+}
+
+.part2 {
+    flex-wrap: wrap ;
+}
+  
+@media only screen and (max-width: 600px){ /* changes display when viewport is 600px or less */
+    nav a {max-width: 100%;
+        display: block;
+        padding: 10px}
+    nav span {display: none}
+}
+
+.skip-to-content-link {
+    display: flex;
+    justify-content: right;
+  }
