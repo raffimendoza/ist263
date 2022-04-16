@@ -1,20 +1,20 @@
-body {background-color: #A8B7A4;}
+body {background-color: #ede4d1;}
 
 p {color: #000;}
 
-a {color: #DAD2CF;}
+a {color: #ffa500;}
 a:hover {color: #11c226;}
 a:visited {color: #c21146;}
 
 h1 {text-align: center;
-    color: #de5021;}
+    color: #c4890a;}
 
-h2 {color: #ed6d42;}
+h2 {color: #c4890a;}
 
-nav {background-color: #c0d1c5;
+nav {background-color: #d9d0bf;
     padding: 10px;
     margin-bottom: 30px;}
-nav a{color: #ed6d42;}
+nav a{color: #ffa500;}
 nav a:hover{color:#11c226;}
 
 .moveright {float: right;}
