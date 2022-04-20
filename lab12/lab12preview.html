@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!-- saved from url=(0111)https://blackboard.syracuse.edu/bbcswebdav/pid-7690854-dt-content-rid-83117662_1/courses/37687.1222m/lab11.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>Lab 12 Preview</title>
+    <style>
+        .container {
+            display: flex;
+        }
+        #first {order: 1;}
+        #second {order: 2;}
+        #third {order: 3;}
+    </style>
+    <script>
+        function WinnerMessage(){
+            document.getElementById("messages").innerHTML = 'You Won!';
+        }
+        function TryAgain(){
+            document.getElementById("messages").innerHTML = 'Wrong Shell - Try Again';
+        }
+        function ShuffleShells(){
+            document.getElementById("first").style.order = Math.floor((Math.random() * 3) + 2);
+        }
+    </script>
+</head>
+<body onload="ShuffleShells();" data-new-gr-c-s-check-loaded="14.1057.0" data-gr-ext-installed="">
+    <h1>Choose a Walnut</h1>
+    
+    <div class="container">
+        <img src="images/walnut.jpg" id="first" alt="first walnut" onclick="WinnerMessage();">
+        <img src="images/walnut.jpg" id="second" alt="second walnut" onclick="TryAgain();">
+        <img src="images/walnut.jpg" id="third" alt="third walnut" onclick="TryAgain();">
+    </div>
+    <div id="messages"></div>
+
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>
