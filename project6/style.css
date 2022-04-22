@@ -1,0 +1,6 @@
+nav {
+    color: white;
+    display: flex; /* Side by side */
+    justify-content: space-around; /* Always call on the same container as flex ^ */ /* Use space-around for project */     
+    margin-top: 10px; 
+}
