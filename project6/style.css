@@ -1,6 +1,38 @@
+.container1 {
+    background-color: orange;
+    font-family: 'Source Sans Pro', sans-serif;
+    display: flex;
+}
+.container1image, .container1header {
+    display: flex;
+}
+.container1header {
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
 nav {
-    color: white;
+    background-color: rgb(244, 237, 237);
+    font-size: 25px;
+    font-family: 'Source Sans Pro', sans-serif;
     display: flex; /* Side by side */
     justify-content: space-around; /* Always call on the same container as flex ^ */ /* Use space-around for project */     
-    margin-top: 10px; 
+}
+
+nav div {
+    flex: 1;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 1px solid black;
+}
+
+nav a:link {
+    color: rgb(24, 86, 107);
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: darkblue;
+    text-decoration: none;
 }
