@@ -1,6 +1,7 @@
 body {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
+    font-size: 18px;
 }
 footer {
     font-family: 'Source Sans Pro', sans-serif;
@@ -65,9 +66,212 @@ footer div {
     color: white;
     font-weight: 500;
     padding-top: 6px;
-    padding-left: 10px;
+    padding-left: 20px;
 }
 
 .footerImage {
+    margin-right: 20px;
+}
+
+.homeContainer {
+    display: flex;
+}
+
+.courseBox {
+    color: white;
+    flex: 1;
+    font-weight: 400;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+    background-image: url(images/background3.jpg);
+    width: 20px;
+}
+
+.gradingContainer {
+    display: flex;
+    padding-bottom: 40px;
+    flex-direction: column;
+}
+
+.gradingFont {
+    font-weight: 400px;
+    font-size:20px;
+    color: rgb(5, 136, 179);
+}
+
+table, th, td {
+    text-align: center;
+    flex: 1;
+    border: 1px solid black;
+  }
+
+.pNlContainer {
+      display: flex;
+      margin-top: 20px;
+      padding-top: 40px;
+      padding-bottom: 40px;
+      font-weight: 500;
+      background-color:#d13f00;
+      color: white;
+      justify-content: space-between;
+  }
+  
+.pNlContainer {
+    border: 1px solid grey;
+}
+
+.projectBox, .labBox {
+    flex: 1;
+}
+
+.projectBox{
+    padding-left: 20px;
+}
+
+.labBox {
+    padding-right: 20px;
+}
+
+.examsContainer {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-weight: 500;
+    background: #000e54;
+    color: white;
+}
+
+.integrityContainer {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-weight: 500;
+    background: rgb(204, 201, 201);
+    color:#000e54;
+}
+
+.careerContainer {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    font-weight: 500;
+    color: white;
+    background-image: url('images/background3.jpg');
+}
+
+.careerContainer strong {
+    display: inline-block;
+    font-size: 25px;
+}
+
+strong {
+    font-size: 25px;
+}
+
+.row1 {
+    display: flex;
+    padding: 40px;
+    color:  white;
+    justify-content: space-between; /* Always call on the same container as flex ^ */
+}
+
+.inner1, .inner2 {
+    display: flex;
+}
+
+.inner1 {
+    margin-left: 10px;
+}
+
+.inner2 {
     margin-right: 10px;
+}
+
+.row2 {
+    text-align: center;
+    clear: both;
+    vertical-align: bottom;
+}
+
+.tab {
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+}
+
+.row2 i {
+    font-size: 25px;
+}
+
+.logoContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.logoContainer div {
+    flex: 1;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.logoContainer img {
+    display: flex;
+    flex: 1;
+    width:  200px;
+    height: 200px;
+    object-fit:scale-down;
+}
+
+.shortcutContainer {
+    display: flex;
+    text-align: center;
+    color: rgb(5, 136, 179);
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.shortcutContainer div {
+    flex: 1;
+}
+
+.htmlContainer img {
+    display: inline-block;
+    flex: 1;
+    width:  200px;
+    height: 200px;
+    object-fit:scale-down;
+    margin: auto;
+}
+
+.cssContainer img {
+    display: inline-block;
+    flex: 1;
+    width:  200px;
+    height: 200px;
+    object-fit:scale-down;
+    margin: auto;
+}
+
+.jsContainer img {
+    display: inline-block;
+    flex: 1;
+    width:  200px;
+    height: 200px;
+    object-fit:scale-down;
+    margin: auto;
+}
+
+.htmlYT, .cssYT, .jsYT {
+    font-size: 24px;
+    padding-top: 20px;
 }
