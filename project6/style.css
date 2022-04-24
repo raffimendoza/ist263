@@ -160,9 +160,7 @@ table, th, td {
     padding-bottom: 100px;
     font-weight: 500;
     color: white;
-    background: url(images/filler.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-color: #000e54;
 }
 
 .careerContainer strong {
