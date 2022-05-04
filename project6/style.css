@@ -289,3 +289,13 @@ strong {
     display: inline-block;
     font-size: 20px;
 }
+
+.scheduleContainer table {
+    position: absolute;
+    background-color: white;
+}
+
+.scheduleContainer img {
+    position: relative;
+    width: 1349px;
+}
