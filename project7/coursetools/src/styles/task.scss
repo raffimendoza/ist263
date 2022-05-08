@@ -1,0 +1,66 @@
+section {
+  padding: 20px;
+  
+  width: 100%;
+  max-width: 700px;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .tasks-header {
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+  
+    border-bottom: 1px solid #FFFFFFdd;
+
+    h4 {
+      align-self: flex-end;
+    }
+  }
+
+  .addTask-button {
+    width: 100%;
+    max-width: 500px;
+    
+    button {
+      width: 100%;
+      margin-top: 20px;
+      padding: 20px;
+
+      outline: none;
+      border: 0;
+      border: 2px dashed #FFF;
+      border-radius: 5px;
+
+      font-size: 1.1rem;
+      font-weight: 500;
+      color: white;
+      cursor: pointer;
+
+      background-color: #FFFFFF10;
+
+      &:hover {
+        background-color: #FFFFFF0b;
+      }
+    }
+  }
+
+  p {
+    text-align: start;
+  }
+
+  .tasks-list {
+    margin-top: 20px;
+    max-width: 500px;
+
+    width: 100%;
+
+    li { list-style-type: none; }
+  }
+}
