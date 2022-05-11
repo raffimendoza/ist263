@@ -92,6 +92,9 @@ footer div {
     display: flex;
     padding-bottom: 40px;
     flex-direction: column;
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .gradingFont {
@@ -160,8 +163,16 @@ z
     padding-bottom: 100px;
     font-weight: 500;
     color: white;
-    background-image: url('images/blue.jpg');
-    background-size: 100%;
+}
+
+.careerContainer strong {
+    color: white;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.row2 {
+    color: white;
+    padding-bottom: 10px;
 }
 
 .careerContainer strong {
